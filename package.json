@@ -2,6 +2,7 @@
   "name": "eslint-config-zmi",
   "version": "0.0.3",
   "main": "index.js",
+  "description": "zmi eslint config",
   "license": "MIT",
   "files": [
     "index.js",
@@ -10,6 +11,14 @@
     "vue.js",
     "base.js"
   ],
+  "authors": [
+    "l-zoy <zoy-l@outlook.com> (https://github.com/l-zoy)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l-zoy/eslint-config-zmi"
+  },
+  "homepage": "https://github.com/l-zoy/eslint-config-zmi",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@typescript-eslint/parser": "^4.14.1",
@@ -28,7 +37,6 @@
       "optional": true
     }
   },
-  "gitHead": "cce394329cf83b06fb0b6ae1ff9b344ef3a5c2f8",
   "devDependencies": {
     "eslint": "^7.19.0"
   }
