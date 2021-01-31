@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-zmi",
+  "version": "0.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "react.js",
+    "typescript.js",
+    "vue.js",
+    "base.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-vue": "^7.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.x",
+    "typescript": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "gitHead": "cce394329cf83b06fb0b6ae1ff9b344ef3a5c2f8",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
