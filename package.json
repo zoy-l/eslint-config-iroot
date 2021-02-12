@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zmi",
-  "version": "0.0.4",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "zmi eslint config",
   "license": "MIT",
@@ -20,14 +20,17 @@
   },
   "homepage": "https://github.com/l-zoy/eslint-config-zmi",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.14.1",
-    "@typescript-eslint/parser": "^4.14.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-vue": "^7.5.0"
+  },
+  "scripts": {
+    "update:deps": "yarn upgrade-interactive --latest"
   },
   "peerDependencies": {
     "eslint": "^7.x",
@@ -39,6 +42,7 @@
     }
   },
   "devDependencies": {
-    "eslint": "^7.19.0"
+    "eslint": "^7.19.0",
+    "typescript": "^4.1.5"
   }
 }

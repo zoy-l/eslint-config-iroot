@@ -4,7 +4,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint'
   ],
-  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    parser: "@typescript-eslint/parser",
+  },
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/camelcase': 'off',
