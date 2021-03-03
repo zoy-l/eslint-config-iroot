@@ -15,5 +15,6 @@ module.exports = {
     "vue/html-self-closing": "off",
     "vue/no-multiple-template-root": "off",
     "vue/max-attributes-per-line": "off",
+    "vue/name-property-casing": "off"
   }
 }
