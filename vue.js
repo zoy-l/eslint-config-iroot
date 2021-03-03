@@ -1,5 +1,5 @@
 module.exports = {
-  extends:['prettier/vue','plugin:vue/vue3-recommended'],
+  extends:['plugin:vue/vue3-recommended'],
   parserOptions: {
     extraFileExtensions: ['.vue']
   },
@@ -8,8 +8,7 @@ module.exports = {
     'vue/attributes-order': 'off',
     'vue/require-default-prop': 'off',
     'vue/no-unused-components': 'off',
-    'vue/name-property-casing': ['error', 'kebab-case'],
-    'vue/component-name-in-template-casing': ['error', 'kebab-case'],
+    'vue/component-definition-name-casing':[1,"PascalCase"],
     "vue/html-indent": "off",
     "vue/html-closing-bracket-newline": "off",
     "vue/singleline-html-element-content-newline": "off",
