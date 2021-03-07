@@ -5,9 +5,9 @@ const vue = require('./vue')
 
 module.exports = {
   configs: {
-      base: base,
-      typescript: typescript,
-      react: react,
-      vue: vue,
-  },
-};
+    base: base,
+    typescript: typescript,
+    react: react,
+    vue: vue
+  }
+}

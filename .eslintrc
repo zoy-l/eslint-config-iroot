@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["./base"],
+  "rules": {
+    "tobject-shorthand": "always",
+    "global-require": "off",
+    "no-case-declarations": "off",
+    "import/no-dynamic-require": "off",
+    "no-continue": "off"
+  }
+}
