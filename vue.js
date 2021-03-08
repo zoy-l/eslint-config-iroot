@@ -18,5 +18,15 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/name-property-casing': 'off'
-  }
+  },
+  overrides: [
+    isTs && {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
+        // does not work with type definitions
+        'no-unused-vars': 'off'
+      }
+    }
+  ].filter(Boolean)
 }

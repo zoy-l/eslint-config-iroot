@@ -1,7 +1,10 @@
 module.exports = {
   extends: ['./base.js', 'plugin:@typescript-eslint/recommended'],
   parserOptions: {
-    parser: '@typescript-eslint/parser'
+    parser: require.resolve('@typescript-eslint/parser'),
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   plugins: ['@typescript-eslint'],
   rules: {
