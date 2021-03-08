@@ -5,8 +5,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
-    'no-unused-vars': 'off',
-    // 与@typescript-eslint相同功能 下方已开启
     '@typescript-eslint/camelcase': 'off',
     // 驼峰命名
     '@typescript-eslint/ban-ts-comment': 'warn',

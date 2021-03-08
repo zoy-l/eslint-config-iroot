@@ -1,4 +1,7 @@
 const Eslint = require('eslint').ESLint
+const utils = require('./utils')
+
+console.log(utils)
 
 const cli = new Eslint({ cwd: process.cwd() })
 

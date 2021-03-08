@@ -37,7 +37,7 @@ while (files.length) {
 
   const { react } = pkg.dependencies ?? {}
 
-  if (react) {
+  if (react && typeof react === 'string') {
     if (isNaN(Number(react.charAt(0)))) {
       reactVersion = react.replace(react.charAt(0), '')
     } else {
