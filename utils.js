@@ -51,6 +51,6 @@ while (files.length) {
 }
 
 module.exports = {
-  isTs: isTs,
-  reactVersion: reactVersion
+  isTs,
+  reactVersion
 }

@@ -1,13 +1,12 @@
 module.exports = {
-  extends:[
-    './base.js',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ['./base.js', 'plugin:@typescript-eslint/recommended'],
   parserOptions: {
-    parser: "@typescript-eslint/parser",
+    parser: '@typescript-eslint/parser'
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'no-unused-vars': 'off',
+    // 与@typescript-eslint相同功能 下方已开启
     '@typescript-eslint/camelcase': 'off',
     // 驼峰命名
     '@typescript-eslint/ban-ts-comment': 'warn',
@@ -26,5 +25,5 @@ module.exports = {
     // 在函数和类方法上需要显式的返回类型
     '@typescript-eslint/explicit-module-boundary-types': 'off'
     // 在导出函数和类的公共类方法上要求显式的返回值和参数类型
-   }
+  }
 }

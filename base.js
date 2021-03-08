@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module'
@@ -56,7 +56,7 @@ module.exports = {
     // 导入相关
     'import/prefer-default-export': 'off',
     // 默认导出
-    'import/no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': 'off'
     // 外部依赖相关
   }
 }
