@@ -26,5 +26,15 @@ module.exports = {
     // 在函数和类方法上需要显式的返回类型
     '@typescript-eslint/explicit-module-boundary-types': 'off'
     // 在导出函数和类的公共类方法上要求显式的返回值和参数类型
-  }
+  },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
+        // does not work with type definitions
+        'no-unused-vars': 'off'
+      }
+    }
+  ]
 }

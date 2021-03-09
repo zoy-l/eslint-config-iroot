@@ -8,6 +8,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended'
   ],
   rules: {
+    'react/jsx-uses-vars': 'off',
     'react/prop-types': 'off',
     'react/jsx-handler-names': 'off',
     'react/jsx-fragments': 'off',
@@ -18,15 +19,5 @@ module.exports = {
     react: {
       version: reactVersion
     }
-  },
-  overrides: [
-    isTs && {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
-        // does not work with type definitions
-        'no-unused-vars': 'off'
-      }
-    }
-  ]
+  }
 }

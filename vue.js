@@ -21,14 +21,6 @@ module.exports = {
     'vue/name-property-casing': 'off'
   },
   overrides: [
-    isTs && {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
-        // does not work with type definitions
-        'no-unused-vars': 'off'
-      }
-    },
     {
       files: ['*.vue'],
       parser: require.resolve('vue-eslint-parser')
@@ -40,5 +32,5 @@ module.exports = {
         'react/jsx-key': 'error'
       }
     }
-  ].filter(Boolean)
+  ]
 }
