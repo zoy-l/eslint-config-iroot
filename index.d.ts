@@ -1,13 +1,10 @@
 import prettier from 'prettier'
 import { Linter } from 'eslint'
 
-export interface prettier {
-  prettier: typeof prettier
-}
-
-export interface configs {
-  react: Linter.Config
-  vue: Linter.Config
+declare const configs: {
   typescript: Linter.Config
+  react: Linter.Config
   base: Linter.Config
+  vue: Linter.Config
 }
+export { configs, prettier }
