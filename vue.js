@@ -31,7 +31,7 @@ module.exports = {
     },
     {
       files: ['*.vue'],
-      parser: 'vue-eslint-parser'
+      parser: require.resolve('vue-eslint-parser')
     },
     {
       files: ['*.jsx', '*.tsx', '*.vue'],
