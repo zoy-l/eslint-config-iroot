@@ -1,11 +1,12 @@
 const { isTs } = require('./utils')
 
 module.exports = {
-  extends: [isTs ? './typescript' : './base', 'plugin:vue/vue3-recommended'],
+  extends: ['plugin:vue/vue3-strongly-recommended', isTs ? './typescript' : './base'],
   parserOptions: {
     extraFileExtensions: ['.vue']
   },
   rules: {
+    'vue/jsx-uses-vars': 'off',
     'vue/no-v-html': 'off',
     'vue/attributes-order': 'off',
     'vue/require-default-prop': 'off',
@@ -26,6 +27,17 @@ module.exports = {
         // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
         // does not work with type definitions
         'no-unused-vars': 'off'
+      }
+    },
+    {
+      files: ['*.vue'],
+      parser: 'vue-eslint-parser'
+    },
+    {
+      files: ['*.jsx', '*.tsx', '*.vue'],
+      plugins: ['react'],
+      rules: {
+        'react/jsx-key': 'error'
       }
     }
   ].filter(Boolean)

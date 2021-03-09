@@ -35,7 +35,7 @@ while (files.length) {
 
   const pkg = require(file)
 
-  const { react } = pkg.dependencies ?? {}
+  const { react } = pkg.dependencies || {}
 
   if (react && typeof react === 'string') {
     if (isNaN(Number(react.charAt(0)))) {

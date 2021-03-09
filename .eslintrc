@@ -6,5 +6,61 @@
     "no-case-declarations": "off",
     "import/no-dynamic-require": "off",
     "no-continue": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "test/fixtures/vue-tsx/*.tsx",
+        "test/fixtures/vue-tsx/*.jsx",
+        "test/fixtures/vue-tsx/*.ts",
+        "test/fixtures/vue-tsx-sfc/*.vue",
+        "test/fixtures/vue-tsx-sfc/*.ts"
+      ],
+      "extends": ["./vue"]
+    },
+    {
+      "files": ["test/fixtures/vue/*.vue"],
+      "extends": ["./base", "plugin:vue/vue3-strongly-recommended"],
+      "rules": {
+        "vue/jsx-uses-vars": "off",
+        "vue/no-v-html": "off",
+        "vue/attributes-order": "off",
+        "vue/require-default-prop": "off",
+        "vue/no-unused-components": "off",
+        "vue/component-definition-name-casing": [1, "PascalCase"],
+        "vue/html-indent": "off",
+        "vue/html-closing-bracket-newline": "off",
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/html-self-closing": "off",
+        "vue/no-multiple-template-root": "off",
+        "vue/max-attributes-per-line": "off",
+        "vue/name-property-casing": "off"
+      }
+    },
+    {
+      "files": ["test/fixtures/react-ts/*.tsx", "test/fixtures/react-ts/*.ts"],
+      "extends": ["./react"]
+    },
+    {
+      "files": ["test/fixtures/react/*.jsx"],
+      "extends": [
+        "./base",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:jsx-a11y/recommended"
+      ],
+      "rules": {
+        "react/prop-types": "off",
+        "react/jsx-handler-names": "off",
+        "react/jsx-fragments": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/no-unused-prop-types": "off"
+      },
+      "settings": {
+        "react": {
+          "version": "17.0.1"
+        }
+      }
+    }
+  ]
 }

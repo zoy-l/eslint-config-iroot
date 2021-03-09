@@ -41,6 +41,8 @@ module.exports = {
     'no-restricted-globals': 'off',
     // 禁用特定全局变量
     'class-methods-use-this': 'off',
+    //
+    'no-use-before-define': 'off',
     // 没有调用的方法 因加上静态前缀
     'prefer-destructuring': ['error', { object: true, array: false }],
     // 强制解构
