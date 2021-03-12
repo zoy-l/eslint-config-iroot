@@ -15,7 +15,8 @@ module.exports = {
   extends: ['zmi/typescript'],
   extends: ['zmi/vue'],
   extends: ['zmi/react']
-  // choose one of them, typescript extends base
+  // choose one 
+  // typescript extends base
 }
 
 // typescript extends base  For example, the ts-react project 'extends': ['zmi/react'],

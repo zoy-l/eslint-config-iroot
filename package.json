@@ -57,5 +57,15 @@
     "react": "^17.0.1",
     "typescript": "^4.2.2",
     "vue": "^3.0.7"
-  }
+  },
+  "keywords": [
+    "zmi",
+    "zmi-cli",
+    "eslint",
+    "eslint-config",
+    "eslint-plugin",
+    "typescript",
+    "react",
+    "vue"
+  ]
 }
