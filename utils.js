@@ -44,10 +44,6 @@ while (files.length) {
       reactVersion = react
     }
   }
-
-  if (reactVersion !== 'detect') {
-    break
-  }
 }
 
 module.exports = {
