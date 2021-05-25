@@ -31,8 +31,8 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
-        // does not work with type definitions
+        // 核心的 “no-unused-vars” 规则（在eslint：recommeded规则集中）
+        // 与 @typescript-eslint/recommended 里的规则重复
         'no-unused-vars': 'off'
       }
     }

@@ -2,7 +2,6 @@ const minimatch = require('minimatch')
 const fs = require('fs')
 const p = require('path')
 
-// potential problems may arise how to know when you are done?
 function recursiveReaddirSync(path) {
   let list = []
   const files = fs
