@@ -313,6 +313,13 @@
   resolved "https://registry.npm.taobao.org/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha1-daLotRy3WKdVPWgEpZMteqznXDk=
 
+"@clings/eslint-plugin-node@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.nlark.com/@clings/eslint-plugin-node/download/@clings/eslint-plugin-node-0.0.3.tgz#1fe2286722d325a1ffcf755c6e54dde00bd36370"
+  integrity sha1-H+IoZyLTJaH/z3VcblTd4AvTY3A=
+  dependencies:
+    lodash.isequal "^4.5.0"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/@cnakazawa/watch/download/@cnakazawa/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -655,11 +662,6 @@
   version "2.2.2"
   resolved "https://registry.npmjs.org/@types/prettier/-/prettier-2.2.2.tgz#e2280c89ddcbeef340099d6968d8c86ba155fdf6"
   integrity sha512-i99hy7Ki19EqVOl77WplDrvgNugHnsSjECVR/wUrzw2TJXz1zlUfT2ngGckR6xN7yFYaijsMAqPkOLx9HgUqHg==
-
-"@types/prettier@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.nlark.com/@types/prettier/download/@types/prettier-2.3.2.tgz#fc8c2825e4ed2142473b4a81064e6e081463d1b3"
-  integrity sha1-/IwoJeTtIUJHO0qBBk5uCBRj0bM=
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -3383,6 +3385,11 @@ lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.nlark.com/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npm.taobao.org/lodash.isequal/download/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.merge@^4.6.2:
   version "4.6.2"

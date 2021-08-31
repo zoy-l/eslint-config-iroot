@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base', 'plugin:prettier/recommended', 'plugin:@clings/node/recommended'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module'
