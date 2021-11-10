@@ -37,7 +37,13 @@ test('a react-ts project should pass lint', async () => {
 
 test('a vue project should pass lint', async () => {
   const rest = await lintProject('vue')
-  expect(['vue/require-v-for-key', 'no-const-assign', 'no-unused-vars', 'no-undef']).toEqual(rest)
+  expect([
+    'vue/multi-word-component-names',
+    'vue/require-v-for-key',
+    'no-const-assign',
+    'no-unused-vars',
+    'no-undef'
+  ]).toEqual(rest)
 })
 
 test('a vue-tsx project should pass lint', async () => {
@@ -45,6 +51,7 @@ test('a vue-tsx project should pass lint', async () => {
 
   expect([
     '@typescript-eslint/no-unused-vars',
+    'vue/multi-word-component-names',
     '@typescript-eslint/no-empty-interface',
     null
   ]).toEqual(rest)
@@ -53,7 +60,9 @@ test('a vue-tsx project should pass lint', async () => {
 test('a vue-tsx-sfc project should pass lint', async () => {
   const rest = await lintProject('vue-tsx-sfc')
 
-  expect(['@typescript-eslint/no-unused-vars', '@typescript-eslint/no-empty-interface']).toEqual(
-    rest
-  )
+  expect([
+    '@typescript-eslint/no-unused-vars',
+    'vue/multi-word-component-names',
+    '@typescript-eslint/no-empty-interface'
+  ]).toEqual(rest)
 })

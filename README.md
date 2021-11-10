@@ -1,11 +1,11 @@
-# eslint-config-zmi
+# eslint-config-iroot
 
 ## Installation
 
-Install `eslint-config-zmi` via yarn or npm.
+Install `eslint-config-iroot` via yarn or npm.
 
 ```bash
-$ yarn add eslint-config-zmi -D
+$ yarn add eslint-config-iroot -D
 ```
 
 ## Vue project
@@ -29,14 +29,14 @@ $ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 ```javascript
 module.exports = {
   root: true,
-  extends: ['zmi/base'],
-  extends: ['zmi/typescript'],
-  extends: ['zmi/vue'],
-  extends: ['zmi/react']
+  extends: ['iroot/base'],
+  extends: ['iroot/typescript'],
+  extends: ['iroot/vue'],
+  extends: ['iroot/react']
   // choose one
   // typescript extends base
 }
 
-// typescript extends base  For example, the ts-react project 'extends': ['zmi/react'],
+// typescript extends base  For example, the ts-react project 'extends': ['iroot/react'],
 // when initializing, ts/js are set automatically so there is no need to inherit typescript
 ```
