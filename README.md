@@ -31,12 +31,14 @@ $ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 
 ## Rules
 
-@clings/eslint-plugin-node
-eslint-config-airbnb-base
-eslint-config-prettier
-eslint-plugin-import
-eslint-plugin-jsx-a11y
-eslint-plugin-prettier
+- @clings/eslint-plugin-node
+- eslint-config-airbnb-base
+- eslint-config-prettier
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-prettier
+
+## Rules Details
 
 [base](https://github.com/l-zoy/eslint-config-iroot/blob/master/base.js)
 
