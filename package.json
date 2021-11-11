@@ -29,8 +29,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "minimatch": "^3.0.4",
-    "prettier": "^2.4.1"
+    "minimatch": "^3.0.4"
   },
   "scripts": {
     "update:deps": "yarn upgrade-interactive --latest",
@@ -43,7 +42,8 @@
     "eslint-plugin-react": "^7.x.x",
     "eslint-plugin-react-hooks": "^4.x.x",
     "eslint-plugin-vue": "^7.x.x",
-    "typescript": "4.x.x"
+    "typescript": "4.x.x",
+    "prettier": "2.x.x"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -66,6 +66,7 @@
     }
   },
   "devDependencies": {
+    "prettier": "^2.4.1",
     "@types/prettier": "^2.3.2",
     "@types/react": "^17.0.34",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
