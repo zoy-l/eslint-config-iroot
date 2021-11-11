@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iroot",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "main": "index.js",
   "types": "index.d.ts",
   "description": "iroot eslint config",
