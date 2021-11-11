@@ -26,6 +26,16 @@ $ yarn add eslint-plugin-react eslint-plugin-react-hooks -D
 $ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 ```
 
+## Rules
+
+[base](https://github.com/l-zoy/eslint-config-iroot/blob/master/base.js)
+
+[typescript](https://github.com/l-zoy/eslint-config-iroot/blob/master/typescript.js)
+
+[vue](https://github.com/l-zoy/eslint-config-iroot/blob/master/vue.js)
+
+[react](https://github.com/l-zoy/eslint-config-iroot/blob/master/react.js)
+
 ```javascript
 module.exports = {
   root: true,
