@@ -6,6 +6,9 @@ Install `eslint-config-iroot` via yarn or npm.
 
 ```bash
 $ yarn add eslint-config-iroot -D
+
+<!-- universal dependency -->
+$ yarn add eslint prettier -D
 ```
 
 ## Vue project
