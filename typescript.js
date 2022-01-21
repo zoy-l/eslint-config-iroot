@@ -6,7 +6,6 @@ module.exports = {
       jsx: true
     }
   },
-  plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/camelcase': 'off',
     // 驼峰命名
