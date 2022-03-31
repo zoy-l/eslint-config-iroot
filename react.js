@@ -8,6 +8,8 @@ module.exports = {
     'plugin:jsx-a11y/recommended'
   ],
   rules: {
+    'react/self-closing-comp': 2,
+    // 合并空标签
     'react/jsx-uses-vars': 'off',
     // 防止将JSX中使用的变量错误地标记为未使用
     'react/prop-types': 'off',

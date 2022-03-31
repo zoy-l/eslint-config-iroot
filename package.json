@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iroot",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "index.js",
   "types": "index.d.ts",
   "description": "iroot eslint config",
@@ -32,7 +32,7 @@
     "minimatch": "^3.0.4"
   },
   "scripts": {
-    "update:deps": "yarn upgrade-interactive --latest",
+    "update:deps": "pnpm update --latest --interactive",
     "test": "jest --coverage"
   },
   "peerDependencies": {
