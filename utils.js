@@ -1,4 +1,4 @@
-const minimatch = require('minimatch')
+const { minimatch } = require('minimatch')
 const fs = require('fs')
 const p = require('path')
 
